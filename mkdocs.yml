@@ -1,0 +1,89 @@
+site_name: 健康社會行為學講義
+site_description: 公共衛生師國考「健康社會行為學」複習講義（V00–V40）與歷屆國考題（110–115 年）
+site_author: 健康社會行為學教學影片計畫
+copyright: 講義內容依影片教案整理；國考題與答案來源為考選部公告
+repo_url: https://github.com/greengarden0925/Health-Behavior-and-Society
+edit_uri: edit/main/docs/
+site_url: https://greengarden0925.github.io/Health-Behavior-and-Society/
+
+theme:
+  name: material
+  language: zh-TW
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - 首頁: index.md
+  - 使用說明: usage.md
+  - 講義:
+      - 第一部分　導論與健康概念:
+          - chapters/V00.md
+          - chapters/V01.md
+      - 第二部分　壓力、人格與慢性病調適:
+          - chapters/V02.md
+          - chapters/V03.md
+          - chapters/V04.md
+          - chapters/V05.md
+          - chapters/V06.md
+      - 第三部分　健康識能與醫病溝通:
+          - chapters/V07.md
+          - chapters/V08.md
+          - chapters/V09.md
+      - 第四部分　渥太華憲章與社會環境:
+          - chapters/V10.md
+          - chapters/V11.md
+          - chapters/V12.md
+          - chapters/V13.md
+          - chapters/V14.md
+          - chapters/V15.md
+          - chapters/V16.md
+      - 第五部分　健康傳播:
+          - chapters/V17.md
+          - chapters/V18.md
+      - 第六部分　健康促進沿革、生活型態與測量:
+          - chapters/V19.md
+          - chapters/V20.md
+          - chapters/V21.md
+          - chapters/V22.md
+      - 第七部分　行為理論:
+          - chapters/V23.md
+          - chapters/V24.md
+          - chapters/V25.md
+      - 第八部分　學習理論、社會行銷與社會學觀點:
+          - chapters/V26.md
+          - chapters/V27.md
+          - chapters/V28.md
+          - chapters/V29.md
+          - chapters/V30.md
+          - chapters/V31.md
+          - chapters/V32.md
+          - chapters/V33.md
+      - 第九部分　預防、計畫、評價與社區場域:
+          - chapters/V34.md
+          - chapters/V35.md
+          - chapters/V36.md
+          - chapters/V37.md
+          - chapters/V38.md
+          - chapters/V39.md
+          - chapters/V40.md
+  - 歷屆國考題對照: exam-map.md
+  - 名詞全寫: glossary.md
+  - 維護指南: maintenance.md
